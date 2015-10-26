@@ -56,7 +56,7 @@ public class ReactiveSocketAeronTest {
                     }
 
                     @Override
-                    public Publisher<Payload> handleChannel(Payload initialPayload, Publisher<Payload> payloads) {
+                    public Publisher<Payload> handleChannel(Publisher<Payload> payloads) {
                         return null;
                     }
 
@@ -137,7 +137,7 @@ public class ReactiveSocketAeronTest {
                     }
 
                     @Override
-                    public Publisher<Payload> handleChannel(Payload initialPayload, Publisher<Payload> payloads) {
+                    public Publisher<Payload> handleChannel(Publisher<Payload> payloads) {
                         return null;
                     }
 
@@ -225,7 +225,7 @@ public class ReactiveSocketAeronTest {
                     }
 
                     @Override
-                    public Publisher<Payload> handleChannel(Payload initialPayload, Publisher<Payload> payloads) {
+                    public Publisher<Payload> handleChannel(Publisher<Payload> payloads) {
                         return null;
                     }
 
@@ -264,7 +264,7 @@ public class ReactiveSocketAeronTest {
                     }
 
                     @Override
-                    public Publisher<Payload> handleChannel(Payload initialPayload, Publisher<Payload> payloads) {
+                    public Publisher<Payload> handleChannel(Publisher<Payload> payloads) {
                         return null;
                     }
 
@@ -388,7 +388,7 @@ public class ReactiveSocketAeronTest {
                     }
 
                     @Override
-                    public Publisher<Payload> handleChannel(Payload initialPayload, Publisher<Payload> payloads) {
+                    public Publisher<Payload> handleChannel(Publisher<Payload> payloads) {
                         return null;
                     }
 
@@ -450,7 +450,7 @@ public class ReactiveSocketAeronTest {
                     }
 
                     @Override
-                    public Publisher<Payload> handleChannel(Payload initialPayload, Publisher<Payload> payloads) {
+                    public Publisher<Payload> handleChannel(Publisher<Payload> payloads) {
                         return null;
                     }
 
@@ -530,7 +530,7 @@ public class ReactiveSocketAeronTest {
                     }
 
                     @Override
-                    public Publisher<Payload> handleChannel(Payload initialPayload, Publisher<Payload> payloads) {
+                    public Publisher<Payload> handleChannel(Publisher<Payload> payloads) {
                         return null;
                     }
 
